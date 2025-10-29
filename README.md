@@ -16,7 +16,7 @@ It reflects my vision of development: **clarity, precision, and constant improve
 ---
 
 ## 🌐 Live Version
-🖥️ **Visit it here:** [https://kosaaaku.github.io/](https://kosaaaku.github.io/)
+🖥️ **Visit it here:** [https://KOSAAKU.github.io/](https://KOSAAKU.github.io/)
 
 No setup, no install — it’s hosted directly on **GitHub Pages**.
 
@@ -35,7 +35,6 @@ portfolio-faris/
 
 ## 🚀 Deployment
 **GitHub Pages** handles hosting automatically.  
-Just push changes to the `main` branch — the site updates instantly.
 
 ---
 
