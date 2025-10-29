@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Faris Ayaichia — Projets, expériences, compétences.">
+  <title>Faris Ayaichia — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <span class="logo">F</span>
+        <a href="#" class="brand-name">Faris Ayaichia</a>
+      </div>
+      <nav class="menu">
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#experience">Expériences</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Développeur en devenir — <span class="accent">Python / C / HTML &amp; CSS</span></h1>
+        <p class="lead">
+          Voici mon Portefolio. Retrouvez mes projets, mon parcours et mes expériences.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="https://github.com/KOSAAKU" target="_blank" rel="noopener">Mon GitHub</a>
+          <a class="btn ghost" href="assets/cv-faris.pdf" target="_blank" rel="noopener">Télécharger mon CV</a>
+        </div>
+      </div>
+      <div class="card highlight">
+        <h3>Infos rapides</h3>
+        <ul class="list">
+          <li>📍 Lyon</li>
+          <li>📧 a.faris0601@gmail.com</li>
+          <li>🎓 Piscine 42 (2025)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div>
+        <h2>À propos</h2>
+        <p>
+          Actuellement en préparation pour reprendre mes études, je construis mes bases en
+          programmation et développe des projets concrets pour progresser rapidement et proprement.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Formation</h3>
+        <ul class="list">
+          <li>🎓 Bac — Lycée Elie Cartan (2024)</li>
+          <li>🎓 Brevet — Collège Saint Bruno (2020)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2>Compétences</h2>
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">C</span>
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">Git &amp; GitHub</span>
+        <span class="chip">Responsive Design</span>
+        <span class="chip">Relation client</span>
+        <span class="chip">Autonomie</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Expériences</h2>
+      <div class="timeline">
+        <article class="timeline-item">
+          <h3>Carrefour / Boulanger — Polyvalent</h3>
+          <p class="muted">Utilisation/entretien des équipements, gestion des stocks</p>
+        </article>
+        <article class="timeline-item">
+          <h3>Midnight — Cuisinier &amp; Livreurr</h3>
+          <p class="muted">Gestion du temps, service client</p>
+        </article>
+        <article class="timeline-item">
+          <h3>Bricorama — Stage</h3>
+          <p class="muted">Mise en rayon, travail en équipe, réapprovisionnement</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2>Projets</h2>
+      <p class="muted">Chargement automatique depuis GitHub (<code>KOSAAKU</code>). Si rien n’apparaît, vérifiez votre connexion ou les paramètres de confidentialité.</p>
+      <div id="project-list" class="grid-cards"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container grid-2">
+      <div>
+        <h2>Contact</h2>
+        <p>Disponible pour échanges et opportunités. N’hésitez pas à me joindre :</p>
+        <ul class="list">
+          <li>📧 <a href="mailto:a.faris0601@gmail.com">a.faris0601@gmail.com</a></li>
+          <li>🔗 <a href="https://github.com/KOSAAKU" target="_blank" rel="noopener">github.com/KOSAAKU</a></li>
+        </ul>
+      </div>
+      <form class="card" id="contact-form" onsubmit="return sendContact(event)">
+        <h3>Me laisser un message</h3>
+        <label>Nom<input type="text" id="name" required></label>
+        <label>Email<input type="email" id="email" required></label>
+        <label>Message<textarea id="message" rows="4" required></textarea></label>
+        <button class="btn primary" type="submit">Envoyer</button>
+        <p id="form-status" class="muted small"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-flex">
+      <span>© <span id="year"></span> Faris Ayaichia</span>
+      <a class="muted small" href="#top">Haut de page ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
