@@ -12,133 +12,247 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
 </head>
 <body>
-  <header class="header">
-    <div class="container nav">
-      <div class="brand">
-        <span class="logo">F</span>
-        <a href="#" class="brand-name">Faris Ayaichia</a>
-      </div>
-      <nav class="menu">
-        <a href="#about">À propos</a>
-        <a href="#skills">Compétences</a>
-        <a href="#experience">Expériences</a>
-        <a href="#projects">Projets</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <h1>Développeur en devenir — <span class="accent">Python / C / HTML &amp; CSS</span></h1>
+  <header class="hero">
+    <div class="container hero-layout">
+      <div class="intro">
+        <span class="eyebrow">Portfolio 2025</span>
+        <h1>Faris Ayaichia</h1>
+        <p class="tagline">Étudiant en 1re année à l’école IPSSI Lyon</p>
         <p class="lead">
-          Voici mon Portfolio. Retrouvez mes projets, mon parcours et mes expériences.
+          Actuellement en première année, je recherche une expérience professionnelle pour mettre en pratique
+          mes compétences techniques et mon dynamisme au sein d’une équipe.
         </p>
         <div class="cta">
-          <a class="btn primary" href="https://github.com/KOSAAKU" target="_blank" rel="noopener">Mon GitHub</a>
+          <a class="btn primary" href="https://github.com/KOSAAKU" target="_blank" rel="noopener">Portfolio GitHub</a>
           <a class="btn ghost" href="assets/cv-faris.pdf" target="_blank" rel="noopener">Télécharger mon CV</a>
         </div>
       </div>
-      <div class="card highlight">
-        <h3>Infos rapides</h3>
-        <ul class="list">
-          <li>📍 Lyon</li>
-          <li>📧 a.faris0601@gmail.com</li>
-          <li>🎓 Piscine 42 (2025)</li>
+      <aside class="hero-card">
+        <h3>Coordonnées</h3>
+        <ul class="icon-list">
+          <li>
+            <span class="icon">📞</span>
+            <a href="tel:+33669166132">06 69 16 61 32</a>
+          </li>
+          <li>
+            <span class="icon">✉️</span>
+            <a href="mailto:a.faris0601@gmail.com">a.faris0601@gmail.com</a>
+          </li>
+          <li>
+            <span class="icon">📍</span>
+            <span>Saint-André-Le-Gaz</span>
+          </li>
+          <li>
+            <span class="icon">🗂️</span>
+            <a href="https://kosaaku.github.io" target="_blank" rel="noopener">kosaaku.github.io</a>
+          </li>
         </ul>
-      </div>
+      </aside>
     </div>
-  </section>
+  </header>
 
-  <section id="about" class="section">
-    <div class="container grid-2">
-      <div>
-        <h2>À propos</h2>
-        <p>
-          Actuellement en préparation pour reprendre mes études, je construis mes bases en
-          programmation et développe des projets concrets pour progresser rapidement et proprement.
-        </p>
+  <main>
+    <section id="about" class="section about">
+      <div class="container split">
+        <div>
+          <h2>À propos de moi</h2>
+          <p>
+            Passionné par le développement et la création de solutions concrètes, j’avance en combinant mes
+            études à l’IPSSI Lyon et mes expériences opérationnelles. J’aime apprendre vite, comprendre les
+            besoins utilisateurs et proposer des interfaces claires et efficaces.
+          </p>
+          <p>
+            Mon objectif : rejoindre une équipe qui valorise la curiosité, la rigueur et l’envie d’évoluer,
+            afin de contribuer sur des projets web ou logiciels.
+          </p>
+        </div>
+        <div class="highlights card">
+          <h3>Qualités clés</h3>
+          <ul class="list check">
+            <li>Relation client et sens du service</li>
+            <li>Autonomie sur la prise en main d’outils</li>
+            <li>Dynamique et force de proposition</li>
+            <li>Savoir convaincre et embarquer une équipe</li>
+          </ul>
+        </div>
       </div>
-      <div class="card">
-        <h3>Formation</h3>
-        <ul class="list">
-          <li>🎓 Bac — Lycée Elie Cartan (2024)</li>
-          <li>🎓 Brevet — Collège Saint Bruno (2020)</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="skills" class="section alt">
-    <div class="container">
-      <h2>Compétences</h2>
-      <div class="chips">
-        <span class="chip">Python</span>
-        <span class="chip">C</span>
-        <span class="chip">HTML5</span>
-        <span class="chip">CSS3</span>
-        <span class="chip">Git &amp; GitHub</span>
-        <span class="chip">Responsive Design</span>
-        <span class="chip">Relation client</span>
-        <span class="chip">Autonomie</span>
+    <section id="education" class="section alt">
+      <div class="container">
+        <h2>Parcours &amp; formations</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="year">2025</span>
+            <h3>IPSSI Lyon</h3>
+            <p class="muted">1re année — Parcours informatique &amp; développement</p>
+          </article>
+          <article class="timeline-item">
+            <span class="year">2024</span>
+            <h3>Piscine 42</h3>
+            <p class="muted">Immersion intensive en C, algorithmie et collaboration</p>
+          </article>
+          <article class="timeline-item">
+            <span class="year">2020</span>
+            <h3>Lycée Elie Cartan</h3>
+            <p class="muted">Baccalauréat</p>
+          </article>
+          <article class="timeline-item">
+            <span class="year">2016</span>
+            <h3>Collège Saint Bruno</h3>
+            <p class="muted">Brevet des collèges</p>
+          </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="experience" class="section">
-    <div class="container">
-      <h2>Expériences</h2>
-      <div class="timeline">
-        <article class="timeline-item">
-          <h3>Carrefour / Boulanger — Polyvalent</h3>
-          <p class="muted">Utilisation/entretien des équipements, gestion des stocks</p>
-        </article>
-        <article class="timeline-item">
-          <h3>Midnight — Cuisinier &amp; Livreurr</h3>
-          <p class="muted">Gestion du temps, service client</p>
-        </article>
-        <article class="timeline-item">
-          <h3>Bricorama — Stage</h3>
-          <p class="muted">Mise en rayon, travail en équipe, réapprovisionnement</p>
-        </article>
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Compétences</h2>
+        <div class="skills-grid">
+          <div class="pill-list">
+            <span class="pill">Dev C</span>
+            <span class="pill">Dev Python</span>
+            <span class="pill">Dev Front-end</span>
+            <span class="pill">HTML / CSS</span>
+            <span class="pill">Git &amp; GitHub</span>
+            <span class="pill">Responsive Design</span>
+          </div>
+          <div class="soft-card card">
+            <h3>Soft skills</h3>
+            <ul class="list dots">
+              <li>Relation client</li>
+              <li>Autonome</li>
+              <li>Dynamique</li>
+              <li>Savoir convaincre</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="projects" class="section alt">
-    <div class="container">
-      <h2>Projets</h2>
-      <p class="muted">Chargement automatique depuis GitHub (<code>KOSAAKU</code>). Si rien n’apparaît, vérifiez votre connexion ou les paramètres de confidentialité.</p>
-      <div id="project-list" class="grid-cards"></div>
-    </div>
-  </section>
-
-  <section id="contact" class="section">
-    <div class="container grid-2">
-      <div>
-        <h2>Contact</h2>
-        <p>Disponible pour échanges et opportunités. N’hésitez pas à me joindre :</p>
-        <ul class="list">
-          <li>📧 <a href="mailto:a.faris0601@gmail.com">a.faris0601@gmail.com</a></li>
-          <li>🔗 <a href="https://github.com/KOSAAKU" target="_blank" rel="noopener">github.com/KOSAAKU</a></li>
-        </ul>
+    <section id="experience" class="section alt">
+      <div class="container">
+        <h2>Expériences professionnelles</h2>
+        <div class="experience-grid">
+          <article class="experience-card card">
+            <header>
+              <h3>Carrefour — Boulanger polyvalent</h3>
+              <span class="muted">Gestion des stocks &amp; respect des normes</span>
+            </header>
+            <ul class="list check">
+              <li>Utilisation et entretien des équipements professionnels</li>
+              <li>Organisation et suivi du stock quotidien</li>
+              <li>Accueil client et vente conseil</li>
+            </ul>
+          </article>
+          <article class="experience-card card">
+            <header>
+              <h3>Midnight — Cuisinier &amp; livreur</h3>
+              <span class="muted">Service, rapidité &amp; coordination</span>
+            </header>
+            <ul class="list check">
+              <li>Préparation et envoi de commandes dans les temps</li>
+              <li>Livraison et relation client en direct</li>
+              <li>Gestion du stress et des priorités</li>
+            </ul>
+          </article>
+          <article class="experience-card card">
+            <header>
+              <h3>Stage Bricorama — Mise en rayon</h3>
+              <span class="muted">Logistique &amp; travail d’équipe</span>
+            </header>
+            <ul class="list check">
+              <li>Réassort et merchandising des rayons</li>
+              <li>Collaboration avec l’équipe magasin</li>
+              <li>Suivi des livraisons et réapprovisionnement</li>
+            </ul>
+          </article>
+        </div>
       </div>
-      <form class="card" id="contact-form" onsubmit="return sendContact(event)">
-        <h3>Me laisser un message</h3>
-        <label>Nom<input type="text" id="name" required></label>
-        <label>Email<input type="email" id="email" required></label>
-        <label>Message<textarea id="message" rows="4" required></textarea></label>
-        <button class="btn primary" type="submit">Envoyer</button>
-        <p id="form-status" class="muted small"></p>
-      </form>
-    </div>
-  </section>
+    </section>
+
+    <section id="languages" class="section">
+      <div class="container">
+        <h2>Langues</h2>
+        <div class="languages">
+          <div class="language">
+            <div class="language-head">
+              <span>Anglais</span>
+              <span class="muted">Courant</span>
+            </div>
+            <div class="bar">
+              <span style="width:85%"></span>
+            </div>
+          </div>
+          <div class="language">
+            <div class="language-head">
+              <span>Espagnol</span>
+              <span class="muted">Intermédiaire</span>
+            </div>
+            <div class="bar">
+              <span style="width:55%"></span>
+            </div>
+          </div>
+          <div class="language">
+            <div class="language-head">
+              <span>Arabe</span>
+              <span class="muted">Avancé</span>
+            </div>
+            <div class="bar">
+              <span style="width:70%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>Projets</h2>
+        <p class="muted">Chargés automatiquement depuis GitHub (<code>KOSAAKU</code>). Si rien n’apparaît, vérifiez votre connexion ou vos dépôts publics.</p>
+        <div id="project-list" class="grid-cards"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container split contact-section">
+        <div class="contact-info">
+          <h2>Travaillons ensemble</h2>
+          <p>Une opportunité, une question ou simplement envie d’échanger ? Contactez-moi et je vous répondrai rapidement.</p>
+          <ul class="icon-list">
+            <li>
+              <span class="icon">✉️</span>
+              <a href="mailto:a.faris0601@gmail.com">a.faris0601@gmail.com</a>
+            </li>
+            <li>
+              <span class="icon">🔗</span>
+              <a href="https://github.com/KOSAAKU" target="_blank" rel="noopener">github.com/KOSAAKU</a>
+            </li>
+          </ul>
+        </div>
+        <form class="card contact-form" id="contact-form" onsubmit="return sendContact(event)">
+          <h3>Me laisser un message</h3>
+          <label for="name">Nom
+            <input type="text" id="name" required>
+          </label>
+          <label for="email">Email
+            <input type="email" id="email" required>
+          </label>
+          <label for="message">Message
+            <textarea id="message" rows="4" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Envoyer</button>
+          <p id="form-status" class="muted small"></p>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="container footer-flex">
       <span>© <span id="year"></span> Faris Ayaichia</span>
-      <a class="muted small" href="#top">Haut de page ↑</a>
+      <a class="muted small" href="#">Haut de page ↑</a>
     </div>
   </footer>
 
