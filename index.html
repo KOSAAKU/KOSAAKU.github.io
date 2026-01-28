@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Faris Ayaichia - Portfolio</title>
     <meta name="description" content="Portfolio de Faris Ayaichia, Développeur Fullstack & Étudiant IPSSI.">
+    
+    <!-- Tailwind via CDN pour simplicité (idéalement via npm en prod, mais ok ici) -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script>
       tailwind.config = {
         theme: {
@@ -41,6 +40,11 @@
         }
       }
     </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
     <style>
       body {
         -webkit-font-smoothing: antialiased;
@@ -51,8 +55,6 @@
         background-color: #000;
         color: #fff;
       }
-      /* Hide scrollbar for cleaner look in some browsers if desired, but standard is fine. 
-         Adding a custom scrollbar for webkit */
       ::-webkit-scrollbar {
         width: 8px;
       }
@@ -70,9 +72,11 @@
   <script type="importmap">
 {
   "imports": {
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
     "react": "https://esm.sh/react@^19.2.4",
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+    "react/": "https://esm.sh/react@^19.2.4/"
   }
 }
 </script>
@@ -80,6 +84,7 @@
 </head>
   <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <!-- Vite va transformer ce fichier .tsx en .js lisible par le navigateur -->
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
