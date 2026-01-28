@@ -1,49 +1,20 @@
-# Portfolio — Faris Ayaichia
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Un portfolio **épuré bleu & blanc** en **HTML/CSS/JS** listant mes projets GitHub et mon parcours.
+# Run and deploy your AI Studio app
 
-## Démarrage
-- Ouvrir `index.html` dans votre navigateur.
-- Les projets se chargent automatiquement depuis **github.com/KOSAAKU** (modifiez l’URL dans `script.js` si besoin).
+This contains everything you need to run your app locally.
 
-## Structure
-```
-portfolio-faris/
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-    ├── cv-faris.pdf
-    └── favicon.svg
-```
+View your app in AI Studio: https://ai.studio/apps/drive/1Fij5hVU4U-WzQwO8orKSS6ZiB_qt13jd
 
-## Déploiement rapide
-- **GitHub Pages** : pousser sur une branche `main`, puis *Settings → Pages → Build from branch*.
-- **Netlify/Vercel** : drag & drop du dossier ou connexion au repo.
+## Run Locally
 
----
+**Prerequisites:**  Node.js
 
-English below ⬇️
 
-# Portfolio — Faris Ayaichia
-
-A **clean blue & white** **HTML/CSS/JS** portfolio showcasing my GitHub projects and background.
-
-## Run
-- Open `index.html` in your browser.
-- Projects auto-load from **github.com/KOSAAKU** (edit the URL in `script.js` if needed).
-
-## Structure
-```
-portfolio-faris/
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-    ├── cv-faris.pdf
-    └── favicon.svg
-```
-
-## Deploy
-- **GitHub Pages**: push to `main`, then *Settings → Pages → Build from branch*.
-- **Netlify/Vercel**: drag & drop the folder or connect the repo.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
