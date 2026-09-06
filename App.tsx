@@ -147,9 +147,10 @@ const App: React.FC = () => {
                 <p className="text-xl md:text-2xl font-light text-neutral-600 leading-relaxed text-balance">
                   {t.header.description}
                 </p>
-                <div className="mt-8 pt-8 border-t border-neutral-100 flex items-center gap-6">
+                <div className="mt-8 pt-8 border-t border-neutral-100 flex flex-wrap items-center gap-x-6 gap-y-3">
                    <span className="text-xs font-bold uppercase tracking-widest text-neutral-950">Fullstack Developer</span>
                    <span className="text-xs font-bold uppercase tracking-widest text-neutral-950">System & Network</span>
+                   <span className="text-xs font-bold uppercase tracking-widest text-neutral-950">Cybersecurity</span>
                 </div>
               </FadeIn>
             </div>

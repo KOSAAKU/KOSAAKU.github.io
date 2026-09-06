@@ -3,8 +3,8 @@ import { PortfolioData } from './types';
 export const DATA: Record<'fr' | 'en', PortfolioData> = {
   fr: {
     header: {
-      role: "Étudiant & Développeur Fullstack",
-      description: "Développeur passionné alliant programmation (C, Python, Web) et expertise infrastructure. Je conçois des applications performantes avec une attention particulière à l'expérience utilisateur et à la qualité du code.",
+      role: "Étudiant & Développeur Polyvalent",
+      description: "Développeur polyvalent, à l'aise de l'interface jusqu'à l'infrastructure. Je conçois des applications performantes et sécurisées, avec une attention particulière à l'expérience utilisateur, à la qualité du code et à la cybersécurité des systèmes.",
       availability: "À la recherche d'une opportunité — Lyon",
     },
     nav: {
@@ -22,6 +22,13 @@ export const DATA: Record<'fr' | 'en', PortfolioData> = {
       contact: "Me Contacter",
     },
     experience: [
+      {
+        role: "Développeur Back-End (Stage)",
+        company: "PAXCIA",
+        period: "Mai 2026 — Juil. 2026",
+        description: "Développement backend en Java sur une architecture distribuée client-serveur temps réel. Persistance des données (MySQL, pool de connexions, requêtes asynchrones), messagerie inter-services et travail en équipe de 4 sur un code partagé.",
+        logo: "paxcia"
+      },
       {
         role: "Président (CEO)",
         company: "GTG, Lyon",
@@ -91,15 +98,19 @@ export const DATA: Record<'fr' | 'en', PortfolioData> = {
     skills: [
       {
         title: "Développement",
-        skills: ["HTML5 / CSS3", "JavaScript", "Python", "PHP 7", "C", "iOS (Swift)", "PowerShell"],
+        skills: ["HTML5 / CSS3", "JavaScript", "Python", "PHP 7", "C", "Java", "PowerShell"],
       },
       {
-        title: "Infrastructure & Cloud",
-        skills: ["AWS Cloud", "Docker", "Linux (Ubuntu)", "Windows Server", "Active Directory", "Cisco"],
+        title: "Infrastructure & Réseau",
+        skills: ["Linux (Ubuntu)", "Windows Server", "Active Directory", "Cisco", "Asterisk (VoIP)", "SIP / RTP"],
       },
       {
         title: "Outils & Méthodes",
-        skills: ["Git / GitHub", "Vim", "MySQL", "VirtualBox", "Teamwork"],
+        skills: ["Git / GitHub", "MySQL", "SQLite", "HikariCP", "Vim", "VirtualBox", "Teamwork"],
+      },
+      {
+        title: "Certifications — 2026",
+        skills: ["ANSSI", "CNIL", "Linux"],
       },
     ],
     languages: [
@@ -114,8 +125,8 @@ export const DATA: Record<'fr' | 'en', PortfolioData> = {
   },
   en: {
     header: {
-      role: "Student & Fullstack Developer",
-      description: "Passionate developer combining programming (C, Python, Web) with infrastructure expertise. I build high-performance applications with a strong focus on user experience and code quality.",
+      role: "Student & Versatile Developer",
+      description: "Versatile developer, equally at home from the interface down to the infrastructure. I build fast, secure applications with a strong focus on user experience, code quality, and systems cybersecurity.",
       availability: "Open to opportunities — Lyon",
     },
     nav: {
@@ -133,6 +144,13 @@ export const DATA: Record<'fr' | 'en', PortfolioData> = {
       contact: "Get in Touch",
     },
     experience: [
+      {
+        role: "Back-End Developer (Internship)",
+        company: "PAXCIA",
+        period: "May 2026 — Jul 2026",
+        description: "Back-end development in Java on a distributed, real-time client-server architecture. Data persistence (MySQL, connection pooling, asynchronous queries), inter-service messaging, and teamwork within a 4-developer shared codebase.",
+        logo: "paxcia"
+      },
       {
         role: "President (CEO)",
         company: "GTG, Lyon",
@@ -202,15 +220,19 @@ export const DATA: Record<'fr' | 'en', PortfolioData> = {
     skills: [
       {
         title: "Development",
-        skills: ["HTML5 / CSS3", "JavaScript", "Python", "PHP 7", "C", "iOS (Swift)", "PowerShell"],
+        skills: ["HTML5 / CSS3", "JavaScript", "Python", "PHP 7", "C", "Java", "PowerShell"],
       },
       {
-        title: "Infrastructure & Cloud",
-        skills: ["AWS Cloud", "Docker", "Linux (Ubuntu)", "Windows Server", "Active Directory", "Cisco"],
+        title: "Infrastructure & Network",
+        skills: ["Linux (Ubuntu)", "Windows Server", "Active Directory", "Cisco", "Asterisk (VoIP)", "SIP / RTP"],
       },
       {
         title: "Tools & Methods",
-        skills: ["Git / GitHub", "Vim", "MySQL", "VirtualBox", "Teamwork"],
+        skills: ["Git / GitHub", "MySQL", "SQLite", "HikariCP", "Vim", "VirtualBox", "Teamwork"],
+      },
+      {
+        title: "Certifications — 2026",
+        skills: ["ANSSI", "CNIL", "Linux"],
       },
     ],
     languages: [

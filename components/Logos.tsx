@@ -9,6 +9,12 @@ export const Logo: React.FC<{ name: string; className?: string }> = ({ name, cla
   };
 
   switch (name) {
+    case 'paxcia':
+      return (
+        <svg {...commonProps}>
+          <path d="M4 3h16a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v3h14V5H5zm1 1h2v1H6V6zm-2 8h16a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1zm1 2v3h14v-3H5zm1 1h2v1H6v-1z" />
+        </svg>
+      );
     case 'gtg':
       return (
         <svg {...commonProps}>
